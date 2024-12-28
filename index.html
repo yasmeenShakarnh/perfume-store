@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfume Store</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    
+    
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+
+                <li><a href="#" onclick="showPage('home')"><i class="fas fa-home"></i> Home</a></li>
+                <li><a href="#" onclick="showPage('products')"><i class="fas fa-box"></i> Products</a></li>
+                <li><a href="#" onclick="showPage('about')"><i class="fas fa-info-circle"></i> About Us</a></li>
+                <li><a href="#" onclick="showPage('contact')"><i class="fas fa-envelope"></i> Contact Us</a></li>
+                <li><a href="#" onclick="showPage('cart')"><i class="fas fa-shopping-cart"></i> Cart</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+
+    
+        <main>
+            <section id="home" class="page">
+                <div class="welcome-message">
+                    <h1>Welcome to Our Exclusive Perfume Shop</h1>
+                    <h1>  Lunar Jasmine</h1>
+                    <p>Discover the finest fragrances crafted just for you. Let your senses experience luxury.</p>
+                </div>
+                  
+                    <h2>Watch Our Short Videos</h2>
+                    <div class="video-container">
+                        <iframe width="1200" height="800" src="https://www.youtube.com/embed/zpDza9rd9_4" 
+                        frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+                        allowfullscreen></iframe>
+                    </div>
+            
+                    <h3>Featured Perfumes</h3>
+                    <div id="featured-products" class="product-list">
+                        <div class="product">
+                            <video width="100%" height="auto" autoplay muted loop>
+                                <source src="https://v.ftcdn.net/10/58/39/88/700_F_1058398897_2lX34mBvqtAjCS2KgKwew3YNnI1Kw3k6_ST.mp4" type="video/mp4">
+
+                            </video>
+                            <h3>Floral Elegance</h3>
+                            <p>A soft floral scent with notes of jasmine, rose, and peony.</p>
+                            <p> 100$</p>
+                        </div>
+                        <div class="product">
+                            <video width="100%" height="auto" autoplay muted loop>
+                                <source src="https://v.ftcdn.net/10/22/81/63/700_F_1022816317_PtCPU1iQEI6WazXLxkVsgme4iSTSpBsB_ST.mp4" type="video/mp4">
+
+                            </video>
+                            <h3>Ocean Breeze</h3>
+                            <p>A fresh ocean-inspired scent with a blend of sea breeze and cedar.</p>
+                            <p>120$</p>
+                        </div>
+                        <div class="product">
+                            <video width="100%" height="auto" autoplay muted loop>
+                                <source src="https://v.ftcdn.net/10/60/97/79/700_F_1060977965_Ds0aRMi150Jj63m7KJbTaCiyHV1Crn3f_ST.mp4" type="video/mp4">
+
+                            </video>
+                            <h3>Lunar Jasmine</h3>
+                            <p>A balanced floral and musky fragrance that suits any occasion.</p>
+                            <p> 250$</p>
+                        </div>
+                        <div class="product">
+                            <video width="100%" height="auto" autoplay muted loop>
+                                <source src="https://v.ftcdn.net/10/85/81/76/700_F_1085817682_8qeM9dGSB8UjdsYaOE3H2D7qW3Awouq2_ST.mp4" type="video/mp4">
+
+                            </video>
+                            <h3>Tropical Orchid</h3>
+                            <p>A tropical floral fragrance with notes of orchid, pineapple, and coconut.</p>
+                            <p>90$</p>
+                        </div>
+                        <div class="product">
+                            <video width="100%" height="auto" autoplay muted loop>
+                                <source src="https://v.ftcdn.net/10/10/23/45/700_F_1010234506_PUA4hCmW3rXD6DeARQ5E94scZkKIJXZM_ST.mp4" type="video/mp4">
+
+                            </video>
+                            <h3>Amber Noir</h3>
+                            <p>A deep, mysterious fragrance with amber, oud, and black pepper.</p>
+                            <p>150$</p>
+                        </div>
+                        <div class="product">
+                            <video width="100%" height="auto" autoplay muted loop>
+                                <source src="https://v.ftcdn.net/10/16/46/37/700_F_1016463793_Afp2xIBWrbhD2nQSsdne7YLh3w3tzDCe_ST.mp4" type="video/mp4">
+
+                            </video>
+                            <h3>Sunset Breeze</h3>
+                            <p>A fresh and light fragrance with a mix of citrus and jasmine.</p>
+                            <p>100$</p>
+                        </div>
+                    </div>
+                    
+            
+                <footer>
+                    <div class="footer-container">
+                       
+            
+                        <div class="contact-info">
+                            <h3>Contact Us</h3>
+                            <p>Email: example@example.com</p>
+                            <p>Phone: +123 456 7890</p>
+                        </div>
+            
+                        <div class="social-media">
+                            <h3>Follow Us</h3>
+                            <ul>
+                                <li><a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-f"></i> Facebook</a></li>
+                                <li><a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i> Twitter</a></li>
+                                <li><a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i> Instagram</a></li>
+                                <li><a href="https://www.linkedin.com" target="_blank"><i class="fab fa-linkedin-in"></i> LinkedIn</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </footer>
+            </section>
+            
+
+        <section id="products" class="page" style="display: none;">
+            <video autoplay loop muted playsinline class="background-video">
+                <source src="fv.mov" type="video/mp4">
+            </video>
+        
+            <div class="content">
+                <h2>Select Product Category</h2>
+                <button onclick="showCategory('male')">Men's Perfumes</button>
+                <button onclick="showCategory('female')">Women's Perfumes</button>
+            </div>
+        </section>
+        
+        <section id="category-products" class="page" style="display: none;">
+            <h2 id="category-title"></h2>
+            <button onclick="goBack('products')">Back to Categories</button>
+            <div class="search-bar">
+                <input type="text" id="search-input" placeholder="Search for perfumes..." onkeyup="searchProducts()">
+                <button onclick="searchProducts()">Search</button> 
+            </div>
+            <div id="products-list"></div>
+            <video id="male-video" class="category-video" autoplay muted loop>
+                <source src="mv.mov" type="video/mp4">
+            </video>
+            <video id="female-video" class="category-video" autoplay muted loop>
+                <source src="w2v.mov" type="video/mp4">
+            </video>
+        </section>
+        
+
+
+
+
+
+        <section id="cart" class="page" style="display: none;">
+            <h2>Your Cart</h2>
+            <div id="cart-items"></div>
+            <button onclick="checkout()">Checkout</button>
+            <button onclick="showPage('home')">Back to Home</button>
+        </section>
+
+
+        <section id="about" class="page">
+            <div class="video-background">
+                <video autoplay muted loop id="background-video">
+                    <source src="ab.mov" type="video/mp4">
+                </video>
+            </div>
+    
+            <div class="about-content">
+                <h2>About Us</h2>
+                <p>Welcome to Lunar Jasmine, a fragrance store that blends tradition with modern elegance. Our mission is to provide you with exceptional perfumes that evoke memories and emotions through the power of scent. Each fragrance is a story, capturing moments of beauty and refinement.</p>
+                
+                <h2>Our Mission</h2>
+                <p>At Lunar Jasmine, we are dedicated to bringing you the finest quality fragrances made from the most exquisite ingredients. Our mission is to create scents that reflect sophistication, elegance, and timeless beauty. We aim to provide a sensory experience that transports you to unforgettable moments.</p>
+    
+                <h3>Our Values</h3>
+                <ul>
+                    <li>Commitment to quality: We ensure the finest ingredients in every fragrance.</li>
+                    <li>Elegance and luxury: Our designs are crafted to inspire sophistication.</li>
+                    <li>Customer experience: We believe in creating memorable and personalized experiences for every customer.</li>
+                </ul>
+            </div>
+        </section>
+        
+        <section id="contact" class="page" style="display: none; position: relative;">
+            <h2>Contact Us</h2>
+            <form id="contact-form">
+                <label>First Name: <input type="text" id="first-name" required></label><br>
+                <label>Last Name: <input type="text" id="last-name" required></label><br>
+                <label>Mobile: <input type="tel" id="mobile" pattern="[0-9]{10}" required></label><br>
+                <label>Address: <input type="text" id="address" required></label><br>
+                <label>Age: <input type="number" id="age" min="1" required></label><br>
+                <label>Hobbies: <input type="text" id="hobbies" required></label><br>
+                <label>City:
+                    <select id="city " required>
+                        <option value="" disabled selected>Select your city </option>
+                        <option value="bethlehem">bethlehem</option>
+                        <option value="jarusalem">jarusalem</option>
+                        <option value="hebron">hebron</option>
+                        <option value="Other">Other</option>
+                    </select>
+                </label><br>
+                <label>Email: <input type="email" id="email" required></label><br>
+                <label>Message: <textarea id="message" required></textarea></label><br>
+                <button type="submit">Send</button>
+            </form>
+            <div id="form-message"></div>
+        </section>
+        
+        <script src="script.js"></script>
+        
+        
+
+    </main>
+
+
+
+</body>
+</html>
