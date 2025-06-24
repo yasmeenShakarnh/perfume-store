@@ -10,7 +10,6 @@ It features a responsive layout, product search, and a fully functional shopping
 - [📖 Overview](#-overview)  
 - [✨ Features](#-features)  
 - [🛠️ Technologies Used](#-technologies-used)  
-- [💾 Installation](#-installation)  
 - [🚀 Usage](#-usage)  
 - 
 ---
@@ -40,13 +39,6 @@ The **Perfume Store Website** is a modern and responsive online shop designed to
 
 ---
 
-## 💾 Installation
-
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/yourusername/perfume-store-website.git
-   cd perfume-store-website
-   ```
 
 2. **Open `index.html`** in your browser.  
    No additional setup is required — all logic is handled on the client side.
